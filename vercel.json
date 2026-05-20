@@ -1,4 +1,10 @@
 {
+  "functions": {
+    "api/claude.js": {
+      "memory": 512,
+      "maxDuration": 30
+    }
+  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
